@@ -1,46 +1,48 @@
 # Git 20250828
 
+é ç«¯ä¿®æ”¹
+
 ## git
 
 ```bash
-# ¬d¸ßgitª©¥»
+# æŸ¥è©¢gitç‰ˆæœ¬
 git -v
 
-# ¬d¸ß³]©w
+# æŸ¥è©¢è¨­å®š
 git config --list
 
-# ³]©w¦WºÙ
-git config --global user.name §Aªº¦W¦r
+# è¨­å®šåç¨±
+git config --global user.name ä½ çš„åå­—
 
-# ³]©wEmail
-git config --global user.email §Aªºemail
+# è¨­å®šEmail
+git config --global user.email ä½ çš„email
 
 
-# gitªì©l¤Æ
+# gitåˆå§‹åŒ–
 git init
 
-# ¬d¬İgit ª¬ºA
+# æŸ¥çœ‹git ç‹€æ…‹
 git status
 
-# ±N©Ò¦³ÀÉ®×¥[¤J¼È¦s°Ï
+# å°‡æ‰€æœ‰æª”æ¡ˆåŠ å…¥æš«å­˜å€
 git add .
 
-# ´£¥æª©¥»
-git commit -m "°T®§"
+# æäº¤ç‰ˆæœ¬
+git commit -m "è¨Šæ¯"
 
-# ¬d¬İª©¥»
+# æŸ¥çœ‹ç‰ˆæœ¬
 git log
 git log --online
 git reflog
 
 
-# ¦^´_ª©¥»
-git reset ª©¥»¸¹ --hard
+# å›å¾©ç‰ˆæœ¬
+git reset ç‰ˆæœ¬è™Ÿ --hard
 
-# «Ø¥ß»·ºİ³s½u
-git remote add origin ³s½u¦ì¸m
+# å»ºç«‹é ç«¯é€£ç·š
+git remote add origin é€£ç·šä½ç½®
 
-# ±À°e¦Ü»·ºİ
+# æ¨é€è‡³é ç«¯
 git push origin master
 git push origin master -u
 
