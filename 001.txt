@@ -42,5 +42,6 @@ git remote add origin 連線位置
 
 # 推送至遠端
 git push origin master
+git push origin master -u
 
 ```
